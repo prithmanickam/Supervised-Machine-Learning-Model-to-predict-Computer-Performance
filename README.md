@@ -1,0 +1,2 @@
+# Supervised-Machine-Learning-Model-to-predict-Computer-Performance
+Model uses Linear Regression to predict computer performance using independent hardware attributes from UCI repository dataset. Learned and used the Python libraries ‘Pandas’ and ‘Numpy’ to read key attributes from dataset. Additionally ‘SKLearn’ and ‘Pickle’, to train, and load the model. Enabled visualisation of relationship between an attribute in the dataset and the relative performance using ‘matplotlib’ library.
