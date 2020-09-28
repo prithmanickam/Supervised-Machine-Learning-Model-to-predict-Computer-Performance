@@ -35,9 +35,12 @@ Ideas for the future
 
 
 Resources used to help
-- Tech with Tim Machine Learning Tutorial #1-4 on Youtube. Tim's tutorial focused on using a student performance database. 
-  To seperate myself and further understand the innerworking of the model being training I used the Computer Hardware database (from UCI repository database),
-  as I am interested to investigate the relationship between certain hardware attributes to the relative computer performance. 
+- 'Tech with Tim Machine Learning Tutorial [#1-4]' on Youtube which is also on his website. 
+  Youtube:https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
+  Website: https://techwithtim.net/tutorials/machine-learning-python/introduction/
+  Tim's tutorial focused on using a student performance database to predict student's final grades. 
+  To seperate myself and further understand the innerworking of the model, I used the Computer Hardware database (from UCI repository database),
+  Additionally I am interested to investigate the relationship between certain hardware attributes to the relative computer performance. 
 - The dataset I used is from UCI Machine Learning repository: https://archive.ics.uci.edu/ml/datasets/Computer+Hardware
   Accessed in 2020
   Creator:
