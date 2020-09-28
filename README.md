@@ -16,7 +16,7 @@ What I have learned
 - How linear regression is used computationally
 - Libraries: pandas, sklearn, pickle, matplotlib and how each of them played a pivital role in gathering, training, loading and plotting data from the dataset.
   (More specific) Used the Python libraries ‘Pandas’ and ‘Numpy’ to read key attributes from dataset, ‘SKLearn’ and ‘Pickle’ to train & load the model. 
-  Enabled visualisation of relationship between an attribute in the dataset and the relative performance using matplotlib.)
+  Enabled visualisation of relationship between an attribute in the dataset and the relative performance using matplotlib.
 
 
 How I could improve
