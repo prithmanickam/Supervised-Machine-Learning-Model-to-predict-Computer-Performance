@@ -51,7 +51,7 @@ Resources used to help
   Tel Aviv University; Ramat-Aviv;
   Tel Aviv, 69978; Israel
 
-  I also made sure the database I used rom UCI repository dataset had a lot of instances to increase the accuracy of the model in prediction
+  I made sure the database I used from UCI repository dataset had a lot of instances to increase the accuracy of the model in prediction.
 
 
 
