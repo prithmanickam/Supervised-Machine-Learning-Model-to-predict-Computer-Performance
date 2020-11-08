@@ -2,7 +2,7 @@
 Brief description: Model uses Linear Regression to predict computer performance using independent hardware attributes from UCI repository dataset. Learned and used the Python libraries ‘Pandas’ and ‘Numpy’ to read key attributes from dataset. Additionally ‘SKLearn’ and ‘Pickle’, to train, and load the model. Enabled visualisation of relationship between an attribute in the dataset and the relative performance using ‘matplotlib’ library.
 
 Opening HardwareML.py
-It might take a couple of seconds for the program to run once clicked. The attribute variable against for plotting the scattar diagram is currently Cache memory (CACH).
+It might take a couple of seconds for the program to run once clicked. The attribute variable against relative computer performance for plotting the scattar diagram is currently Cache memory (CACH).
 
 
 Description of program
