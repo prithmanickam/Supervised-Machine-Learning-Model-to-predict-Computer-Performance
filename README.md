@@ -4,6 +4,7 @@ Opening HardwareML.py
 It might take quite a number of seconds for the program to run once clicked. The attribute/variable against relative computer performance for plotting the scattar diagram is currently Cache memory (CACH).
 
 Description of program
+
 This program is Supervised Machine learing Linear Regression model to predict computer performance from independent computer hardware attributes/variables. The program also plots a scatter graph of a chosen attribute inrelation to relative computer performance, and by altering the variable it can be found which attribute affects the performance more or less (to give users a understanding of which stats of a CPU they should focus on upon purchasing one).
 This model is supervised as the algorithm learns on a labeled dataset. The type of supervised learning is regression as the data I am using are only integers. Linear regression is an algorithm finds a line (y=mx+c) that best fits for scatter of data points on the plot. If there is a fairly strong correlation, the line can be used to predicts ouputs from given inputs.
 I split the dataset into test and training data set, where 90 percent is used for the training dataset and 10% is used for the test dataset. A high percentage is used for the training dataset to increase accuracy of the prediction.
