@@ -1,14 +1,20 @@
 # Supervised-Machine-Learning-Model-to-predict-Computer-Performance
 
-Opening HardwareML.py
+## Screenshots of program
+![alt text](https://github.com/prithmanickam/Supervised-Machine-Learning-Model-to-predict-Computer-Performance/blob/master/README%20images/Computer%20Performance%20ML%20Model%20screenshot%201.png)
 
-It might take quite a while for the program to run once clicked. The attribute/variable against relative computer performance for plotting the scattar diagram is currently Cache memory (CACH).
+![alt text](https://github.com/prithmanickam/Supervised-Machine-Learning-Model-to-predict-Computer-Performance/blob/master/README%20images/Computer%20Performance%20ML%20Model%20screenshot%202.png)
 
 ## Description of program
 
-This program is Supervised Machine learing Linear Regression model to predict computer performance from independent computer hardware attributes/variables. The program also plots a scatter graph of a chosen attribute inrelation to relative computer performance, and by altering the variable, the attribute affects the performance more or less can be found (to give users a understanding of which stats they should focus on upon purchasing a computer).
-This model is supervised as the algorithm learns on a labeled dataset. The type of supervised learning is regression as the data I am using are only integers. Linear regression is an algorithm finds a line (y=mx+c) that best fits for scatter of data points on the plot. If there is a fairly strong correlation, the line can be used to predicts ouputs from given inputs.
-In my program, I split the dataset into test and training data set, where 90 percent is used for the training dataset and 10% is used for the test dataset. A high percentage is used for the training dataset to increase accuracy of the prediction.
+- a Python Supervised Machine Learning Linear Regression model to train and predict relative computer performance using independent hardware attributes from a UCI repository dataset.
+- Extended the model by having a Tkinter GUI to make it more user friendly.
+- The program can plot a scatter graph of a chosen attribute inrelation to relative computer performance.
+- This model is supervised as the algorithm learns on a labeled dataset. The type of supervised learning is linear regression where the algorithm finds a line (y=mx+c) that best fits for scatter of data points on the plot. If there is a strong correlation, the line can be used to predict ouputs from given inputs. In my program, I split the dataset into test and training data set, where 90 percent is used for the training dataset and 10% is used for the test dataset. A high percentage is used for the training dataset to increase accuracy of the prediction.
+
+## Installation
+- need to install the libraries: numpy, pandas, sklearn, matplotlib, pickle, tkinter
+- command on cmd: `pip install `[name of library]
 
 ## What I have learned
 - Most significant attribute which positively affected computer performance were MMAX (maximum main memory)
@@ -18,8 +24,8 @@ In my program, I split the dataset into test and training data set, where 90 per
 - Enabled visualisation of relationship between an attribute in the dataset and the relative performance using matplotlib.
 
 ## How I could improve
-- Boost the accuracy of the model by using datasets with more instances to get more accurate the results. Treat all missing values. Detect and remove all outliers.
-- Create a more genreal purpose ML model with a GUI for users to investigate and uncover hidden insights from their own data unrelated to computer performance.
+- [x] Extend the model by creating a user friendly GUI version 
+- [ ] Boost the accuracy of the model by using datasets with more instances to get more accurate the results. Treat all missing values. Detect and remove all outliers.
 
 ## Ideas for the future
 - Supervised model that uses classification or clustering 
@@ -32,8 +38,9 @@ In my program, I split the dataset into test and training data set, where 90 per
   Youtube:https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg
   Website: https://techwithtim.net/tutorials/machine-learning-python/introduction/
   Tim's tutorial focused on using a student performance database to predict student's final grades. 
-  To seperate myself and further understand the innerworking of the model, I used the Computer Hardware database (from UCI repository database).
+  To develop a stronger understanding I used the Computer Hardware database (from UCI repository database).
   Additionally I am interested to investigate the relationship between certain hardware attributes to the relative computer performance. 
+  
 - The dataset I used is from UCI Machine Learning repository: https://archive.ics.uci.edu/ml/datasets/Computer+Hardware
   Accessed in 2020
   Creator:
